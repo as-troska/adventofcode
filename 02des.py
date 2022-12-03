@@ -57,7 +57,7 @@ scorev2 = 0
 
 with open ("02des.txt") as file:
     for line in file:
-        line = line.replace(*"\n", "")   
+        line = line.replace("\n", "")   
         values = line.split(" ")
         you = values[1]
         opponent = values[0]        
